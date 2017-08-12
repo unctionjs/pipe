@@ -1,17 +1,17 @@
-# @unction/{{NAME}}
+# @unction/pipe
 
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed -> mixed
+> Array<mixed -> mixed> -> mixed -> mixed
 
-An example function.
+Takes a list of functions and runs a value through that stack from left to right.
 
 ``` javascript
-{{NAME}}(1) // 1
+pipe([toString, toInteger])(0) // 0
 ```
 
-[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
+[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/pipe.svg?maxAge=2592000&style=flat-square
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
-[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
+[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/pipe.svg?maxAge=2592000&style=flat-square

@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/pipe",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a list of functions and runs a value through that stack from left to right",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/pipe#readme",
+  "repository": "github:unctionjs/pipe",
+  "bugs": "https://github.com/unctionjs/pipe/issues",
   "main": "transpiled/source.js",
   "scripts": {
     "postinstall": "npm run build && flow-typed install",
@@ -47,6 +47,7 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/thrush": "*",
+    "@unction/reducevalues": "*"
   }
 }
