@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import pipe from "./"
+import pipe from "./index"
 
 const increment = (value) => value + 1
 const toString = (value) => `${value}`
