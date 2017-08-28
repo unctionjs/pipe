@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/pipe#readme",
   "repository": "github:unctionjs/pipe",
   "bugs": "https://github.com/unctionjs/pipe/issues",
-  "main": "transpiled/source.js",
+  "main": "transpiled/index.js",
   "scripts": {
     "prepublishOnly": "npm run build",
     "prepare": "flow-typed install",
@@ -60,6 +60,5 @@
     ],
     "sourceMap": false,
     "instrument": false
-  },
-  "main": "transpiled/index.js"
+  }
 }
