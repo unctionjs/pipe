@@ -50,7 +50,7 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/reducevalues": "2.36.0",
+    "@unction/reducevalues": "2.37.0",
     "@unction/thrush": "2.6.0"
   },
   "nyc": {
