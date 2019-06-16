@@ -1,6 +1,6 @@
 {
   "name": "@unction/pipe",
-  "version": "10.5.0",
+  "version": "10.5.1",
   "description": "Takes a list of functions and runs a value through that stack from left to right",
   "keywords": [
     "unction",
