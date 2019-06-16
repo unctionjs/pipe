@@ -51,8 +51,8 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/reducevalues": "8.5.0",
-    "@unction/thrush": "4.2.0"
+    "@unction/reducevalues": "8.6.0",
+    "@unction/thrush": "4.2.1"
   },
   "nyc": {
     "require": [
