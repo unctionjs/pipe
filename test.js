@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import {test} from "tap";
 
-import pipe from "./index";
+import pipe from "./";
 
 const increment = (value) => value + 1;
 const toString = (value) => `${value}`;
