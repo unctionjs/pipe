@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<mixed => mixed> => mixed => mixed
+> Array<A> => B => C
 
 Takes a list of functions and runs a value through that stack from left to right.
 
