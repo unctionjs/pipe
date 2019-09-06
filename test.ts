@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import pipe from "./index.ts";
+import pipe from "./index";
 
 const increment = (value) => value + 1;
 const toString = (value) => `${value}`;
