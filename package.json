@@ -53,8 +53,8 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/reducevalues": "8.9.0",
-    "@unction/thrush": "4.2.2"
+    "@unction/reducevalues": "8.10.0",
+    "@unction/thrush": "4.2.3"
   },
   "files": [
     "index.ts",
